@@ -1,4 +1,4 @@
-# Fedora script customization
+# Centos 7 script customization
 Scripts to improve functionality for centos 7.0
  ---
 # Directory structure
@@ -7,7 +7,7 @@ The structure of this directory goes as follows:
 ```
 fedora-config/
 ├── script-enhance-c70.sh
-└── README.md 
+└── README.md
 ```
 
 # Description
@@ -17,8 +17,8 @@ fedora-config/
 - Shell script "script-enhance-c70.sh"
   * Script to improve usability for centos7
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE" target="_blank">
-  <img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" />
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=wbO77ypezZE" target="_blank">
+  <img src="http://img.youtube.com/vi/wbO77ypezZE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" />
 </a>
 
  ---
