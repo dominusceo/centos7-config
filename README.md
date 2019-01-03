@@ -17,9 +17,11 @@ fedora-config/
 - Shell script "script-enhance-c70.sh"
   * Script to improve usability for centos7
 
+<!--
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=wbO77ypezZE" target="_blank">
   <img src="http://img.youtube.com/vi/wbO77ypezZE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" />
 </a>
+-->
 
  ---
  ### Licencia
