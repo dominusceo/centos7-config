@@ -13,9 +13,9 @@ fedora-config/
 # Description
 ==============
 - Directory "centos7-config"
-  * Bla bla bla
+  * Contents 2 files, "script-enhance-c70.sh" and "README.md"
 - Shell script "script-enhance-c70.sh"
-  * Script to improve usability for centos7
+  * Script to improve usability for centos7.
 
 <!--
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=wbO77ypezZE" target="_blank">
@@ -24,8 +24,8 @@ fedora-config/
 -->
 
  ---
- ### Licencia
+ # Licencia
  ![Licencia de Creative Commons](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
- Esta obra está bajo una
- [licencia de Creative Commons de Atribución-CompartirIgual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/)
+ Esta obra está bajo una licencia
+ [Creative Commons de Atribución-CompartirIgual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/)
