@@ -107,3 +107,10 @@ _EOF_
 # Menu pesonalization
 yum install -y alacarte
 
+# V2V tools for convert guest vmware to kvm guest
+yum install -y virt-v2v
+# Installing windows drivers repository
+# https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html
+wget https://fedorapeople.org/groups/virt/virtio-win/virtio-win.repo   -O /etc/yum.repos.d/virtio-win.repo
+yum install -y virtio-win
+
