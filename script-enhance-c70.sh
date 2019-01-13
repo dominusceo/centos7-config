@@ -114,3 +114,5 @@ yum install -y virt-v2v
 wget https://fedorapeople.org/groups/virt/virtio-win/virtio-win.repo   -O /etc/yum.repos.d/virtio-win.repo
 yum install -y virtio-win
 
+# descompressors 
+yum install unrar p7zip
