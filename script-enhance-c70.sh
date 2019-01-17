@@ -3,6 +3,7 @@
 #Goal: Make an Centos 7 environment for lab study
 USUARIO=ricardo.carrillo
 CORREO="dominus.ceo@gmail.com"
+rpm --import http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro 
 rpm -Uhv http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
 yum update
 yum install -y epel-release && yum update -y
@@ -25,6 +26,19 @@ yum install -y numix\*
 
 # Reading ntfs partitions
 yum install -y ntfs-3g ntfsprogs
+
+# Installing editor Atom
+rpm --import https://packagecloud.io/AtomEditor/atom/gpgkey
+cat << __EOF__ >> /etc/yum.repos.d/atom.repo
+[Atom]
+name=Atom Editor
+baseurl=https://packagecloud.io/AtomEditor/atom/el/7/\$basearch
+enabled=1
+gpgcheck=0
+repo_gpgcheck=1
+gpgkey=https://packagecloud.io/AtomEditor/atom/gpgkey
+__EOF__
+yum install -y atom.x86_64.rpm
 
 # Install Java plugins
 yum install -y icedtea-web java-11-openjdk
